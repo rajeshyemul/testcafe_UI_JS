@@ -1,0 +1,25 @@
+{
+  "name": "testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe test",
+    "all": "testcafe",
+    "report": "node report-generator.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "testcafe": "^1.15.3",
+    "testcafe-reporter-allure": "^1.0.5"
+  },
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "testcafe-reporter-cucumber-json": "^6.3.0"
+  }
+}

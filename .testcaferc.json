@@ -1,0 +1,19 @@
+{
+    "browsers": "chrome",
+    "src": "test",
+    "reporter" : "cucumber-json",
+    "screenshots": {
+        "path": "report/screenshots",
+        "takeOnFails": true,
+        "fullPage": true
+    },
+    "videoPath": "report/videos",
+        "videoOptions": {
+        "singleFile": true,
+        "failedOnly": true
+        },
+    "concurrency": 1,
+    "selectorTimeout": 3000,
+    "assertionTimeout": 1000,
+    "pageLoadTimeout": 1000
+}
